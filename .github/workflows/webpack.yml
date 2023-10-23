@@ -26,6 +26,7 @@
 #      run: |
 #        npm install
 #        npx webpack
+
 name: Cypress End-to-End Tests
 
 on:
