@@ -22,4 +22,4 @@ jobs:
         run: npm install
         
       - name: Run Cypress Tests
-        run:  cypress open
+        run:  npx cypress run
