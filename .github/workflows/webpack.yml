@@ -29,4 +29,4 @@ jobs:
     steps:
       - name: Trigger Jenkins build
         run: |
-          curl -X POST https://localhost:8080/buildByToken/build?job=Srbuhi-Hakobyan  --user your_username:11a9fce111d587bcadaa216ad4d84175ea
+          curl -X POST https://localhost:8080/buildByToken/build?job=Srbuhi-Hakobyan  --user Srbuhi-Hakobyan:11a9fce111d587bcadaa216ad4d84175ea
