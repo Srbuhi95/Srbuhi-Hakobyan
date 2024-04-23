@@ -23,3 +23,10 @@ jobs:
         
       - name: Run Cypress Tests
         run:  npx cypress run
+  trigger_jenkins_build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Jenkins build
+        run: |
+          curl -X POST https://localhost:8080/buildByToken/build?job=Srbuhi-Hakobyan  --user your_username:11a9fce111d587bcadaa216ad4d84175ea
